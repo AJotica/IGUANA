@@ -1,0 +1,122 @@
+/* cuerpo de la pagina */
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+/* cuerpo de la pagina y todo lo interno */
+body * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* afecta a todos los h2 del grupo de la página */
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+/* afecta a la barra de navegación iguana */
+nav *{
+    width: 100%;
+    height: 73px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 50px;
+}
+/* sección encabezado que contiene la iguana grande  */
+header{
+    width: 100%;
+}
+/* se le aplica a la img iguana grande del encabezado */
+header img{
+    width: 100%;
+}
+/* sección que contiene multiples secciones parrafo e iguana */
+.desc-section{                 
+    text-align: center;
+    width: 100%;
+}
+/* sección individual que contiene el parrafo e imagen */
+.desc-section article,
+.desc-section figure{
+    display: inline-block;
+    margin-top: 20px;
+} 
+/* estilo al parrafo  desc-section */
+.desc-section article {              
+    width: 475px;
+    height: 197px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: left;
+    margin: 75px 150px;
+} 
+/* estilo a la imagen  desc-section */
+.desc-section figure img {              
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+} 
+
+/* aplicar a todo el contenedor seccion de iconos */
+.seccion-iconos-parrafos {
+    background-color: #1e1a13;
+    padding: 75px;
+
+}
+
+/* Quitar el fondo negro que viene del body */
+.seccion-iconos-parrafos *{
+    background-color: #1e1a13;
+}
+
+/* aplicar solo a la seccion de iconos y titulos */
+.seccion-iconos{
+    text-align: center;
+    margin: 30px auto;
+    width: 75%;
+}
+
+/* aplicar a los iconos */
+.icono {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+}
+
+/* aplicar a los titulos de cada icono */
+.icono h3{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px auto;
+}
+
+/* contenedor de las imagenes de las iguanas playera */
+.imagenes-iguanas {
+    margin: 20px auto;
+    text-align: center;
+    padding: 73px;
+
+}
+
+/* manipular imagenes de las iguanas playera */
+.iguanas-img {
+    display: inline-block;
+    width: 316px;
+    height: 202px;
+    margin: 10px;
+}
+
+/* footer */
+footer *{
+    background-color: #1e1a13;
+    padding: 30px;
+    text-align: center;    
+}
